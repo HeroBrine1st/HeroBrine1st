@@ -1,9 +1,8 @@
 👋 Hi, I’m @HeroBrine1st, a random-time enthusiast developer.
 
-I'm generally interested in cybersecurity and in solutions that allow people to regain their control back (even if partially, like [spotify-dumper](https://github.com/HeroBrine1st/spotify-dumper)). My favourite language is Kotlin due to its great expressiveness, together with the best UI library I ever used - Jetpack Compose.
+I'm generally interested in cybersecurity and in self-hosting solutions that allow people to regain their control back (even if partially, like [spotify-dumper](https://github.com/HeroBrine1st/spotify-dumper)). My favourite language is Kotlin due to its great expressiveness combined with easibility of enforcing forward soundness[^1], together with the best UI library I ever used - Jetpack Compose.
 
 I'm on my slow way to provide the world with good software, where slow is because I'm focused on some unpopular areas - and that's why you won't ever see me writing another notes, calendar or TODO application, unless there's oddly specific feature noone implements. For example, spotify-dumper has ability to run without any human interaction and was actually used for automatic "backups" of all my playlists.
-<!---
-HeroBrine1st/HeroBrine1st is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+
+[^1]: Forward soundness (also called forward logic safety) is a technique I (independently) came up with to prevent bugs in codebases by declaring and strictly enforcing data flow paths and contracts, using compiler typing engine where possible and falling back to asserts to prevent undefined behaviors, which also allows for performance optimisations. This way, no complex code is exposed to unknown state. This technique requires language support. A primitive example is  `value class UserId(private val value: Int)` which is a way to prevent bugs like [this](github.com/tortoise/tortoise-orm/issues/1791), where id of wrong table was used most probably due to duck-typing (that's python though but you get the idea).  
+The term is not fully verbally formed (because that's one of my skills I gained over time in an automatic way), so this definition may be silly. Also this may already be popularly used but I did not find it. Anyway that's how most of my bugs are visible in code immediately.
