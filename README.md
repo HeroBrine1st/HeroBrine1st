@@ -35,7 +35,7 @@ I'm on my slow way to provide the world with good software, where slow is becaus
   - You won't suffer from "why this doesn't work" in many simple cases. I have been asked to help finding the bug while it was a simple flaw in logic, easily spot if you understand your code not only via a mindmap.
   - You will have better agentic capabilities because you aren't thinking "if it works it works" or "don't touch it if it works"[^4], you are thinking "why it works?". Repeatedly thinking, each time you understand the code. Eventually you will dig deep into knowing how computer, OS and networks work, will know the backstages behind your everyday actions (like synced documents are not magically available on each device), and only sky is your limit.
 
-  [^4]: A terrible statement in the age of version control systems, you even have `git bisect` if something goes wrong
+  [^4]: A terrible statement in the age of version control systems, you even have `git bisect` if something goes wrong. I only understand it in corporate environments but simply because refactoring is time, and time is money. You save on refactoring - you get technical debt, and that's a positive feedback loop so no surprise.
 
   And the sweet-sweet part:
 
