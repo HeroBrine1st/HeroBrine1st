@@ -42,7 +42,7 @@ I'm on my slow way to provide the world with good software, where slow is becaus
   - You will likely have no problems with onboarding into new codebases
   - You will likely have no problems with learning new languages! Furthermore, learning new languages will not feel like *learning*, it will deeply connect new language to all previously known languages. So you simply keep the reference documentation somewhere near and, knowing what you can do with known languages, simply look for the same thing. Or, in the age of LLMs, ask an LLM for alternative, but I recommend checking its response with documentation[^5]. Anyway it would be far faster because not only you can write the code in your language and ask the LLM to transpile it into other language, but also read the documentation and examples with full understanding, unwinding it into a graph of knowledge deeply linked with abilities of other languages.
 
-[^5]: I use LLM as (additional) search engine in most cases (and try to limit its usage to last resorts), and if you think of it like that, it will lose the magic and will look as a yet another tool in your collection like previous search engines were.
+[^5]: I use LLM as (additional) search engine in most cases (and try to limit its usage to last resorts), and if you think of it like that, it will lose the magic and will look as yet another tool in your collection like previous search engines were.
 
   Here's the funny thing: I have learned lua to start some small scripts only by reading code, having poor JavaScript experience as background, back in 2016. That was my second language, and both languages were likely learned (or, at least, bootstrapped) without reading official documentation because I simply didn't knew about such thing.
 
