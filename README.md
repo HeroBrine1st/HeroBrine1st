@@ -51,7 +51,7 @@ I'm on my slow way to provide the world with good software, where slow is becaus
   - This is an advice to become a developer like me. I do the software because I need it. Do not confuse it with "I do the software because I'm getting paid for that". That's not inherently a bad thing (they can be combined, each benefits from other), simply not what this advice is for. In short, don't expect a job in 1 month.
   - I started programming as a kid, simply seeing cool mobile minecraft mods (they were scripts back then) and having some free tutorials about that. That's also an idea for your pet project, if you are a gamer, but beware gamedev is hard if it is not scripted. I can probably recommend Factorio because mods are very small (haven't done any though) and Minecraft OpenComputers mod which has e.g. robots to go mining instead of you. The good thing about learning via games is that it is somewhat personal, there are many miners for said robots but because this is simple and gamified enough (if you use the original OpenComputers, not oc2 which uses VMs), you will gain some e.g. control flow skills and general understanding without much tiring. That's a good foundation for going into big world of development, but it is not a requirement.
 
-  You probably can replace this text with virtually any skill and it should mostly work. I didn't extensively test that though, but I believe it is generic enough.
+  You probably can replace this text with virtually any skill and it should mostly work (though will require big investments because you need to buy actual equipment). I didn't extensively test that though, but I believe it is generic enough.
 
 </details>
 
