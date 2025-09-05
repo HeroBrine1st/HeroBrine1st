@@ -28,7 +28,7 @@ I'm on my slow way to provide the world with good software, where slow is becaus
   
   ### Learn to *read* code, not only write it
   
-  ..of course after/if you are basically experienced. This is also applicable to experienced developers.
+  ..of course after/if you are basically experienced. This applies experienced developers too.
 
   Reading code is more than half of your work, and, as such, your **core skill**, which includes reading documentation to fetch the info required for understanding code. By learning that, you will break free from the meme problems like "can't understand code that I wrote three months ago". And that's not the only effect, there are side effects:
 
