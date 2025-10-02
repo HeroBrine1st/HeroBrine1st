@@ -1,8 +1,6 @@
 👋 Hi, I’m @HeroBrine1st, a random-time enthusiast developer.
 
-I'm generally interested in cybersecurity and in self-hosting solutions that allow people to regain their control back (even if partially, like [spotify-dumper](https://github.com/HeroBrine1st/spotify-dumper)). My favourite language is Kotlin due to its great expressiveness combined with ease of enforcing forward soundness (see my articles), together with the best UI library I ever used - Jetpack Compose.
-
-I'm on my slow way to provide the world with good software, where slow is because I like solving actual unsolved problems more than simply developing in the sake of development - and that's why you won't ever see me writing another notes, calendar or TODO application, unless there's oddly specific feature no one implements. For example, spotify-dumper has ability to run without any human interaction and was actually used for automatic "backups" of all my playlists.
+I'm interested in self-hosting, privacy and cybersecurity (because there's no privacy without security). I'm not particularly interested in software development, but the world mostly doesn't have software I need. So, my favourite language is Kotlin due to its great expressiveness combined with ease of enforcing forward soundness<sup>[a](articles/2025-10-02-forward-soundness.md)</sup>, together with the best UI library I ever used - Jetpack Compose.
 
 <details>
 <summary>My articles</summary>
