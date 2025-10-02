@@ -10,12 +10,12 @@ Most straightforward ways to achieve it are:
 - Type system that simply does not allow compiling faulty code. This is actually a backbone of forward soundness: everything is typed so that meaningless code does not compile. Examples:
   - Following previous item, compiler knows when data is immutable and, as such, disallows its mutation at compile time, instead of throwing an exception at runtime
   - Compiler can disallow converting an instance of e.g. `value class UserId(private val id: Int)` to `value class PostId(private val id: Int)` - which will immediately show you an error if you confuse your table primary keys
-  - `DisposableEffect` in Jetpack Compose, which requires you to write `onDispose` hook, because it is the only way you can get required return value. It is also what makes it last statement in the effect, though you can store it in variable but this is what called to *go off the path*
+  - `DisposableEffect` in Jetpack Compose, which requires you to write `onDispose` hook, because it is the only way you can get required return value. It is also what makes it last statement in the effect, though you can store it in variable but this is what called to *go off the path*  
   Don't fall to "all or nothing" here! Anything can be messy as hell, just isolate it behind a contract and, optionally, cover with tests.
 - Something about null safety is also encouraged. And of course strong static typing!
 - Something that makes you throw no exceptions is encouraged too, because:
   - You don't know what exceptions will be thrown from a particular code
-  - There's no way to make compiler warn you if you don't catch an exception. Checked exceptions? Looks like no one likes them
+  - There's no way to make compiler warn you if you don't catch an exception. Checked exceptions? Looks like no one likes them  
   The reason is, exceptions are thrown when an application is in *exceptional state*, which is not expected. Is it expected for your application to have network issues? That's why you catch exception right there and transform it into a regular object.
 - After you don't have exceptions, you introduce exceptions. Unexpected state? Log then throw, ideally crashing the whole application - smoke tests will quickly find it. So, asserts are also encouraged, and it makes `Collections.unmodifiableList` not that bad - just an assert you don't expect to exist, which still follows its rules. Yeah, this is last resort and largely intended for debugging, however there are cases when it is better to crash than do unexpected things.
 
