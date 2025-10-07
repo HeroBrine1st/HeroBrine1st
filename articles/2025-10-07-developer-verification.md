@@ -1,0 +1,15 @@
+# On developer verification
+
+[Google wants all Android developers to give their ID](https://android-developers.googleblog.com/2025/08/elevating-android-security.html). I am a developer committed to open source, and my answer is no, even though my only android app is an educational project growing multiple libraries for future projects (don't worry, I don't plan on abandoning it). This is deterrence of malicious app authors which doesn't work for e.g. supply chain attacks or targeted attacks at developers because it's deterrence, not a full solution. It will kill open source just by the fact you can't install arbitrary open source application, not saying about "administrative fees" one needs to pay for verification.
+
+They make you lose freedom on your own phone for "security" you didn't ask. Do you know what happens next? You lose "security" too. Oh right, you don't even gain it! There's no way to tell if the app is malicious or not by developer ID. What if some stealer on e.g. development machine steals signing keys and/or developer console credentials? Furthermore, a false sense of security is ***great*** for attackers because you are less vigilant. If you blindly trust "developer verification", you will gain nothing. If you don't, you can as well install from trustworthy sources without "developer verification". And that's assuming all verified developers will not publish malware, which is... do you know that law enforcement works primarily by deterring criminals, not by judgment?
+
+That's not saying Google will have full control over available applications. Who knows what the corporation with *former* "don't be evil" motto will do? They definitely will "do the right thing" for more revenue, that's it. I don't think they care about security here. They better keep hardening Android like they have been doing since Android 8.
+
+This raises issues even for verified open source projects, like inability to test your own changes before making a pull request without changing package ID. Good luck testing inter-app communication! For unverified, it is even worse: less userbase means less interest and, as such, less quality. I am degoogled yet this affects me. For all my past and future android projects, I have no choice but to silently or explicitly drop Google-licensed OS support.
+
+You can use non-certified Android distributions (AKA "custom ROM") and support developers refusing to verify. Open source is strong together, even when some of us are malicious. We don't need verification, we already have transparency.
+
+> You can never make a system 100% secure unless you unplug the machine from all networks, turn it off, lock it in a safe, smother it in concrete and never use it.  
+> The biggest threat is, and will always be, the user.  
+> \- [Arch Wiki](https://wiki.archlinux.org/index.php?title=Security&oldid=847987)
