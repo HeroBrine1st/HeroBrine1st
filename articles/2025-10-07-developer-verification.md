@@ -13,3 +13,15 @@ You can use non-certified Android distributions (AKA "custom ROM") and support d
 > You can never make a system 100% secure unless you unplug the machine from all networks, turn it off, lock it in a safe, smother it in concrete and never use it.  
 > The biggest threat is, and will always be, the user.  
 > \- [Arch Wiki](https://wiki.archlinux.org/index.php?title=Security&oldid=847987)
+
+---
+
+### Update 29.10.2025
+
+I didn't want to make claims like "there's malware on GPlay too" (it needs references), so I didn't. I could cite
+F-Droid and there actually was an article I wanted to cite, but I didn't want to cite part of it because it means I
+support other claims in that article (which I don't), but I also didn't want to reject them explicitly.
+
+Anyway, F-Droid has come up with new article which doesn't make any claims for F-Droid
+itself: [https://f-droid.org/2025/10/28/sideloading.html](https://f-droid.org/2025/10/28/sideloading.html). It rebuts
+some counter-messaging and I recommend reading it if you're interested.
